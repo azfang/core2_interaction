@@ -1,0 +1,152 @@
+p {
+    font-size: 22px;
+    font-family: 'Arial Narrow', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Narrow'), url('ARIALN.woff') format('woff');
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:visited { 
+    text-decoration: none; 
+    color: black;
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: #ff00ff;
+  } 
+  a:active { 
+    text-decoration: none; 
+    color: blck;
+  }
+
+.link {
+    position: fixed;
+    left: 1%;
+}
+
+.link-out {
+    text-decoration: underline;
+    color: #ff00ff;
+}
+
+.link-out:hover {
+    text-decoration: underline;
+}
+
+#syllabus_link1 {
+    top: 0%;
+}
+
+#syllabus_link2 {
+    top: 30%;
+}
+
+#syllabus_link3 {
+    top: 60%;
+}
+
+#syllabus_link4 {
+    top: 90%;
+}
+
+.right-column {
+    position: absolute;
+    top: 0%;
+    left: 50vw;
+    max-width: 48vw;
+}
+
+#syllabus_section1 {
+    /* opacity: 0.1; */
+    opacity: 1;
+}
+
+#syllabus_section2 {
+    /* color: blue; */
+    color: black;
+}
+
+#syllabus_section3 {
+    color: black;
+}
+
+@media only screen and (max-width: 900px) {
+    .right-column {
+        left: 0vw;
+        padding: 20px;
+        max-width: 95vw;
+    }
+    p {
+        font-size: 20px;
+    }
+    #syllabus_link1 {
+        top: 0%;
+    }
+    
+    #syllabus_link2 {
+        top: 5%;
+    }
+    
+    #syllabus_link3 {
+        top: 10%;
+    }
+    
+    #syllabus_link4 {
+        top: 15%;
+    }
+}
+
+@media only screen and (orientation: portrait)
+{
+    .right-column {
+        top: 18%;
+        left: 5%;
+        padding: 50px;
+        max-width: 95vw;
+    }
+    p {
+        font-size: 30px;
+    }
+    .link {
+        position: relative;
+        left: 1%;
+    }
+    #syllabus_link1 {
+        top: 0%;
+    }
+    
+    #syllabus_link2 {
+        top: 5%;
+    }
+    
+    #syllabus_link3 {
+        top: 10%;
+    }
+    
+    #syllabus_link4 {
+        top: 15%;
+    }
+}

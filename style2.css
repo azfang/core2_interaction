@@ -1,0 +1,86 @@
+p {
+    font-size: 22px;
+    font-family: 'Arial Narrow', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Narrow'), url('ARIALN.woff') format('woff');
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+a:link { 
+    text-decoration: underline; 
+    color: #ff00ff;
+  } 
+  a:visited { 
+    text-decoration: none; 
+    color: #ff00ff;
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color: #ff00ff;
+  } 
+  a:active { 
+    text-decoration: none; 
+    color: #ff00ff;
+  }
+
+.link {
+    position: fixed;
+    left: 1%;
+}
+
+.link-out {
+    text-decoration: underline;
+    color: #ff00ff;
+}
+
+#syllabus_link1 {
+    top: 0%;
+}
+
+#syllabus_link2 {
+    top: 30%;
+}
+
+#syllabus_link3 {
+    top: 60%;
+}
+
+#syllabus_link4 {
+    top: 90%;
+}
+
+.right-column {
+    position: absolute;
+    top: 0%;
+    left: 50vw;
+    max-width: 48vw;
+    /* opacity: 0; */
+}
+
+#syllabus_section1 {
+    /* opacity: 0.1; */
+    opacity: 1;
+}
+
+#syllabus_section2 {
+    /* color: blue; */
+    opacity: 0;
+    color: black;
+}
+
+#syllabus_section3 {
+    opacity: 0;
+    color: black;
+}
