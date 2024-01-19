@@ -95,6 +95,10 @@ a:link {
     opacity: 1;
 }
 
+#syllabus_section1B {
+    opacity: 0.05;
+}
+
 #syllabus_section2 {
     /* color: blue; */
     color: black;
@@ -103,6 +107,16 @@ a:link {
 #syllabus_section3 {
     color: black;
 }
+
+img {
+    width: 12vw;
+}
+
+.wrap {
+    float: right; 
+    /* position: absolute; */
+    margin: 0px 15px 0px 0px;
+   }
 
 @media only screen and (max-width: 900px) {
     .right-column {
