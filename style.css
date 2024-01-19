@@ -47,7 +47,7 @@ a:link {
     color: #ff00ff;
   }
 
-figcaption {
+.activeLink, figcaption {
     font-family: 'Arial Narrow', sans-serif;
     color: #ff00ff;
 }
