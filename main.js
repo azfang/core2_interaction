@@ -1,6 +1,10 @@
-$(document).ready(function () {
-    // $("#syllabus_section2").hide();
-  });
+$(document).ready(function(){
+    $('a').hover(function(){
+        $(this).addClass('blur');
+    }).mouseout(function(){
+        $(this).removeClass('blur');
+    });
+});
 
   $("a.smoothLink").click(function(e) {
     // $(".right-column").addClass("fadeOut"); // anything with the "fadeOut" class will become transparent in 1s in our CSS
