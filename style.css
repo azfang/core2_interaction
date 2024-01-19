@@ -137,12 +137,12 @@ img {
 
 @media only screen and (max-width: 900px) {
     .right-column {
-        top: 24%;
+        top: 30%;
         left: 1%;
         min-width: 98vw;
         padding: 5px;
     }
-    p {
+    h2, p {
         font-size: 42px;
     }
     #syllabus_link1 {
@@ -165,12 +165,12 @@ img {
 @media only screen and (orientation: portrait)
 {
     .right-column {
-        top: 24%;
+        top: 30%;
         left: 1%;
         min-width: 98vw;
         padding: 5px;
     }
-    p {
+    h2, p {
         font-size: 42px;
     }
     .link {
