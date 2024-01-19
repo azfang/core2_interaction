@@ -138,8 +138,8 @@ img {
 @media only screen and (max-width: 900px) {
     .right-column {
         top: 30%;
-        left: 1%;
-        min-width: 98vw;
+        left: 2%;
+        min-width: 97vw;
         padding: 5px;
     }
     h2, p {
@@ -166,8 +166,8 @@ img {
 {
     .right-column {
         top: 30%;
-        left: 1%;
-        min-width: 98vw;
+        left: 2%;
+        min-width: 97vw;
         padding: 5px;
     }
     h2, p {
