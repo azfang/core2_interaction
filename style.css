@@ -48,6 +48,8 @@ a:link {
   }
 
 .activeLink {
+    position: fixed;
+    left: 1%;
     color: #ff00ff;
 }
 
