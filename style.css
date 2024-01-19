@@ -129,6 +129,7 @@ img {
     .right-column {
         top: 18%;
         left: 1%;
+        min-width: 90vw;
         padding: 5px;
     }
     p {
@@ -156,6 +157,7 @@ img {
     .right-column {
         top: 18%;
         left: 1%;
+        min-width: 90vw;
         padding: 5px;
     }
     p {
