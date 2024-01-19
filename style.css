@@ -44,8 +44,13 @@ a:link {
   } 
   a:active { 
     text-decoration: none; 
-    color: blck;
+    color: #ff00ff;
   }
+
+figcaption {
+    font-family: 'Arial Narrow', sans-serif;
+    color: #ff00ff;
+}
 
 .blur {
    color: transparent;
