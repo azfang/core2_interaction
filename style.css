@@ -96,6 +96,7 @@ a:link {
 }
 
 #syllabus_section1B {
+    position: fixed;
     opacity: 0.05;
 }
 
