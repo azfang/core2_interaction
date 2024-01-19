@@ -142,38 +142,11 @@ img {
         min-width: 97vw;
         padding: 5px;
     }
+    
     h2, p {
         font-size: 42px;
     }
-    #syllabus_link1 {
-        top: 0%;
-    }
-    
-    #syllabus_link2 {
-        top: 5%;
-    }
-    
-    #syllabus_link3 {
-        top: 10%;
-    }
-    
-    #syllabus_link4 {
-        top: 15%;
-    }
-}
-
-@media only screen and (orientation: portrait)
-{
-    .right-column {
-        top: 30%;
-        left: 2%;
-        min-width: 97vw;
-        padding: 5px;
-    }
-    h2, p {
-        font-size: 42px;
-    }
-    .link {
+    .activeLink, .link {
         position: relative;
         left: 1%;
     }
@@ -191,5 +164,46 @@ img {
     
     #syllabus_link4 {
         top: 15%;
+    }
+
+    img {
+        width: 25vw;
+    }
+}
+
+@media only screen and (orientation: portrait)
+{
+    .right-column {
+        top: 30%;
+        left: 2%;
+        min-width: 97vw;
+        padding: 5px;
+    }
+    
+    h2, p {
+        font-size: 42px;
+    }
+    .activeLink, .link {
+        position: relative;
+        left: 1%;
+    }
+    #syllabus_link1 {
+        top: 0%;
+    }
+    
+    #syllabus_link2 {
+        top: 5%;
+    }
+    
+    #syllabus_link3 {
+        top: 10%;
+    }
+    
+    #syllabus_link4 {
+        top: 15%;
+    }
+
+    img {
+        width: 25vw;
     }
 }
