@@ -118,9 +118,9 @@ img {
 
 @media only screen and (max-width: 900px) {
     .right-column {
-        left: 0vw;
-        padding: 20px;
-        max-width: 95vw;
+        top: 18%;
+        left: 1%;
+        padding: 50px;
     }
     p {
         font-size: 42px;
@@ -146,9 +146,8 @@ img {
 {
     .right-column {
         top: 18%;
-        left: 5%;
+        left: 1%;
         padding: 50px;
-        max-width: 95vw;
     }
     p {
         font-size: 42px;
