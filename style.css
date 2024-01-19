@@ -95,9 +95,9 @@ a:link {
     color: black;
 }
 
-#syllabus_section1B, #syllabus_section2B {
+#syllabus_section1B, #syllabus_section2B, #syllabus_section3B {
     position: fixed;
-    opacity: 0.1;
+    opacity: 0.05;
 }
 
 img {
