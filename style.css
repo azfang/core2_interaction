@@ -155,7 +155,7 @@ img {
 @media only screen and (orientation: portrait)
 {
     .right-column {
-        top: 18%;
+        top: 20%;
         left: 1%;
         min-width: 90vw;
         padding: 5px;
