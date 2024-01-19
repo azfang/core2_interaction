@@ -1,4 +1,4 @@
-p {
+h2, p {
     font-size: 22px;
     font-family: 'Arial Narrow', sans-serif;
 
@@ -50,6 +50,10 @@ a:link {
 .activeLink {
     position: fixed;
     left: 1%;
+    color: #ff00ff;
+}
+
+.highlight {
     color: #ff00ff;
 }
 
