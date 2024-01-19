@@ -25,6 +25,11 @@ p {
     -webkit-transition: opacity 1s ease-in-out;
 }
 
+a {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
 a:link { 
     text-decoration: none; 
     color: black;
@@ -36,6 +41,7 @@ a:link {
   a:hover { 
     text-decoration: none; 
     color: #ff00ff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
   } 
   a:active { 
     text-decoration: none; 
