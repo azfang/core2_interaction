@@ -105,7 +105,7 @@ img {
 }
 
 .wrap {
-    float: right; 
+    float: center; 
     /* position: absolute; */
     margin: 0px 15px 0px 0px;
    }
