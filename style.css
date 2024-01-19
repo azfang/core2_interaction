@@ -204,7 +204,11 @@ img {
     }
 
     img {
-        width: 25vw;
-        padding: 5px;
+        width: 35vw;
+        padding: 10px;
+    }
+
+    figcaption {
+        font-size: 25px;
     }
 }
