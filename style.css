@@ -90,23 +90,14 @@ a:link {
     max-width: 48vw;
 }
 
-#syllabus_section1 {
-    /* opacity: 0.1; */
+#syllabus_section1, #syllabus_section2, #syllabus_section3, #syllabus_section4 {
     opacity: 1;
+    color: black;
 }
 
-#syllabus_section1B {
+#syllabus_section1B, #syllabus_section2B {
     position: fixed;
     opacity: 0.1;
-}
-
-#syllabus_section2 {
-    /* color: blue; */
-    color: black;
-}
-
-#syllabus_section3 {
-    color: black;
 }
 
 img {
