@@ -21,6 +21,7 @@ p {
 a:link { 
     text-decoration: underline; 
     color: #ff00ff;
+    text-decoration-color: #ff00ff;
   } 
   a:visited { 
     text-decoration: none; 
@@ -43,6 +44,7 @@ a:link {
 .link-out {
     text-decoration: underline;
     color: #ff00ff;
+    text-decoration-color: #ff00ff;
 }
 
 #syllabus_link1 {
