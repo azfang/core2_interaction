@@ -137,9 +137,9 @@ img {
 
 @media only screen and (max-width: 900px) {
     .right-column {
-        top: 18%;
+        top: 24%;
         left: 1%;
-        min-width: 90vw;
+        min-width: 98vw;
         padding: 5px;
     }
     p {
@@ -165,9 +165,9 @@ img {
 @media only screen and (orientation: portrait)
 {
     .right-column {
-        top: 20%;
+        top: 24%;
         left: 1%;
-        min-width: 90vw;
+        min-width: 98vw;
         padding: 5px;
     }
     p {
