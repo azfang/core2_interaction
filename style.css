@@ -176,8 +176,12 @@ img {
         top: 15%;
     }
 
-    img, .large-img {
+    img {
         width: 40vw;
+    }
+
+    .large-img {
+        width: 50vw;
     }
 
     .wrap {
@@ -222,8 +226,12 @@ img {
         top: 15%;
     }
 
-    img, .large-img {
+    img {
         width: 40vw;
+    }
+
+    .large-img {
+        width: 50vw;
     }
 
     .wrap {
