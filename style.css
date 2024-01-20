@@ -119,6 +119,10 @@ img {
     width: 15vw;
 }
 
+.large-img {
+    width: 25vw;
+}
+
 .wrap {
     float: right; 
     /* position: absolute; */
