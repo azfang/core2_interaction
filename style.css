@@ -174,7 +174,7 @@ img {
         top: 15%;
     }
 
-    img {
+    img, .large-img {
         width: 40vw;
     }
 
@@ -220,7 +220,7 @@ img {
         top: 15%;
     }
 
-    img {
+    img, .large-img {
         width: 40vw;
     }
 
