@@ -108,11 +108,13 @@ figcaption {
 #syllabus_section1, #syllabus_section2, #syllabus_section3, #syllabus_section4 {
     opacity: 1;
     color: black;
+    z-index: 1;
 }
 
 #syllabus_section1B, #syllabus_section2B, #syllabus_section3B {
     position: fixed;
     opacity: 0.05;
+    z-index: 0;
 }
 
 img {
