@@ -123,6 +123,10 @@ img {
     width: 25vw;
 }
 
+.smol-img {
+    width: 10vw;
+}
+
 .wrap {
     float: right; 
     /* position: absolute; */
