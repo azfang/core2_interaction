@@ -120,7 +120,7 @@ img {
 }
 
 .large-img {
-    width: 25vw;
+    width: 30vw;
 }
 
 .wrap {
@@ -171,7 +171,16 @@ img {
     }
 
     img {
-        width: 25vw;
+        width: 35vw;
+    }
+
+    .wrap {
+        float: right;
+        margin: 0px 15px 0px 15px;
+    }
+
+    figcaption {
+        font-size: 25px;
     }
 }
 
@@ -209,7 +218,11 @@ img {
 
     img {
         width: 35vw;
-        padding: 10px;
+    }
+
+    .wrap {
+        float: right;
+        margin: 0px 15px 0px 15px;
     }
 
     figcaption {
